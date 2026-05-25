@@ -12,6 +12,15 @@ tags:
 
 A 166M parameter transformer pretrained from scratch on 4B tokens of [FineWeb-Edu](https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu).
 
+
+# Demo and process website
+https://tiny-edu-demo.vercel.app/
+
+
+# huggingface links base model and instruct
+https://huggingface.co/SlitherCode/tiny-edu-166m
+https://huggingface.co/SlitherCode/tiny-edu-166m-instruct-v3
+
 ## Architecture (ParchmentLM)
 
 Custom decoder-only transformer:
@@ -58,3 +67,5 @@ print(tokenizer.decode(out[0], skip_special_tokens=True))
 ## License
 
 Model weights: MIT. Training data: ODC-By 1.0 attributing  -> fineweb
+
+
